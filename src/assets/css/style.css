@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #3498db;
 }
 
-.navbar .getstarted {
+.navbar .getstarted, .blue-button{
   background: #3498db;
   padding: 8px 25px;
   margin-left: 30px;
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.navbar .getstarted:hover {
+.navbar .getstarted:hover, .blue-button:hover{
   color: #fff;
   background: #4aa3df;
 }
@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #222222;

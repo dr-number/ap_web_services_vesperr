@@ -1,4 +1,5 @@
 import React from "react";
+import SignIn from "./SignIn";
 
 class Header extends React.Component{
   render(){
@@ -13,6 +14,7 @@ class Header extends React.Component{
 
         <nav id="navbar" className="navbar">
           <ul>
+            <li><SignIn/></li>
             <li><a className="nav-link scrollto " href="#hero">Home</a></li>
             <li><a className="nav-link scrollto" href="#about">About</a></li>
             <li><a className="nav-link scrollto" href="#services">Services</a></li>
